@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:darkgray;
+    width:100%;
+    padding-left:10px;
+    padding-right:10px;
+    position:relative;
+    top:-10px;
+    left:-10px;
+
+}
+li {
+    float:right;
+}
+li a{
+    display:block;
+    color:white;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:rgb(194, 192, 192);
+}
+.box {
+    width:960px;
+    height:500px;
+    border:5px;
+    margin:auto;
+    margin-top:50px;
+    background-color:white;
+    padding-top:3px;
+    
+}
+
+.name {
+    float:right;
+}
+.button1 a:hover {
+    background-color:rgb(194, 192, 192)
+}
